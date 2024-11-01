@@ -1,8 +1,43 @@
-# React + Vite
+<h1>🕊 CH-2. React userState를 활용한 Olympic Tracker</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>🕹 목표 정하기</h2>
 
-Currently, two official plugins are available:
+제출 폼 UI 구현 : 나라 이름 필드, 메달 갯수 필드, 제출 후 빈 값 초기화, submit 했을 때 나라와 메달 수 추가
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+메달 집계 CRUD 기능
+
+메달 집계 정렬
+
+중복 국가 처리
+
+존재하지 않는 국가 알림
+
+로컬 스토리지 활용
+
+localStorage를 활용해 영화 카드에 북마크 기능 추가
+
+🔭[배포용 링크] [(https://minjun2131.github.io/Movie/)]
+
+<h2>🩹💊 문제가 있었던 부분</h2>
+
+마지막까지 해결하지 못했던 기능 : 
+
+이미지나 내용이 없는 영화들에 대해 기본값 제공 X
+
+북마크 했을 때 추가와 해제에 대한 이벤트핸들링 X
+
+반응형 CSS X
+
+검색시 대소문자 구문 X
+
+북마크 된 정보가 없으면 기본 화면 출력 X
+
+<h2>🎁 배울 수 있었던 부분</h2>
+
+addEventListener의 이벤트 전파에 대한 이해
+
+실시간 검색 api를 가져올 때 디바운싱의 필요성
+
+localStorage의 활용성
+
+조금 더 개념에 익숙해지고 나면 tmdb를 활용해 다른 걸 연습해봐도 좋다고 생각함.
